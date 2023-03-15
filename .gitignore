@@ -1,0 +1,6 @@
+.vscode
+__pycache__
+test/__pycache__
+database/__pycache__
+main.py
+source.ini
