@@ -25,3 +25,8 @@ api_url =
 rand = 
 
 ```
+_then run_
+
+```
+docker-compose up --build -d
+```
