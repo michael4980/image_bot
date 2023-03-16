@@ -162,7 +162,7 @@ async def all_users(message):
 @bot.message_handler(func=lambda message: message.from_user.id == int(conf.tg_bot.admin_id), regexp='call')
 async def caller(message):
     text = f"[INFO] Message from Docker autostart comtainer:\n Bot temporary available now, try it !\n ---press /start or menu---"
-    chats =[921610253, 254793128, 269990696, 206508100, 198049052, 738458277, 354907293, 1126904288, 354950537, 336949655, 5359754478]
+    chats =['some ids']
     for chat in chats:
         await bot.send_message(chat_id=chat, text = text)
 
